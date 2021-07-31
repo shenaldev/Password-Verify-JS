@@ -65,7 +65,7 @@ I made a javascript library to verify user input passwords. It Verify Followings
 
 ## License
 
-MIT
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 
 **Free Software**
 
