@@ -1,0 +1,100 @@
+/*** You Can Change Validation DIV Background Color From Here ***/
+/** Verified Circle And Required Circle Colors **/
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  background: #F8F9F9; }
+
+.btn {
+  padding: 0.6rem 3rem;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  background: #673ab7;
+  color: white;
+  cursor: pointer; }
+
+.btn:hover {
+  background: #7446c4; }
+
+#password-field {
+  position: relative; }
+
+.form-container {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  align-items: center;
+  justify-items: center; }
+  .form-container .inner-wrapper {
+    background: #FFFF;
+    border-radius: 5px;
+    padding: 2rem;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.12);
+    width: 320px; }
+    .form-container .inner-wrapper .form-row {
+      display: grid;
+      margin-bottom: 1.2rem;
+      /***** Validate Container Styles *****/ }
+      .form-container .inner-wrapper .form-row label {
+        font-size: 14px;
+        color: #566573; }
+      .form-container .inner-wrapper .form-row input {
+        padding: 0.2rem 0.8rem;
+        border: 1px solid #D6DBDF;
+        border-radius: 8px;
+        font-size: 16px;
+        font-family: 'Poppins', sans-serif; }
+      .form-container .inner-wrapper .form-row ::-ms-input-placeholder, .form-container .inner-wrapper .form-row :-ms-input-placeholder {
+        font-size: 12px;
+        color: #9e9e9e; }
+      .form-container .inner-wrapper .form-row ::placeholder {
+        font-size: 12px;
+        color: #9e9e9e;
+        opacity: 1; }
+      .form-container .inner-wrapper .form-row input:focus, .form-container .inner-wrapper .form-row input:focus-within, .form-container .inner-wrapper .form-row input:focus-visible {
+        outline-color: #673ab7; }
+      .form-container .inner-wrapper .form-row .validate {
+        background: #eceff1;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 4px;
+        padding: 1rem;
+        position: absolute;
+        z-index: 10;
+        top: 4rem;
+        left: 1rem;
+        width: 180px;
+        display: none; }
+        .form-container .inner-wrapper .form-row .validate div .va-required {
+          width: 10px;
+          height: 10px;
+          border: 1px solid #fa4545;
+          border-radius: 50%;
+          display: inline-block; }
+        .form-container .inner-wrapper .form-row .validate div .va-validated {
+          width: 10px;
+          height: 10px;
+          background: #3f51b5;
+          border-radius: 50%;
+          display: inline-block; }
+        .form-container .inner-wrapper .form-row .validate div p {
+          display: inline-block;
+          margin: 0 0 0.5rem 0.5rem;
+          font-size: 12px;
+          color: #2C3E50;
+          font-weight: 500; }
+    .form-container .inner-wrapper .btn-div {
+      margin-top: 1.4rem; }
+    .form-container .inner-wrapper #eye-show, .form-container .inner-wrapper #eye-hide {
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      right: 0.5rem;
+      top: 50%;
+      cursor: pointer; }
+    .form-container .inner-wrapper #eye-hide {
+      display: none; }
+
+/*# sourceMappingURL=styles.css.map */
