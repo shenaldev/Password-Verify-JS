@@ -1,5 +1,7 @@
 # Password Verification JS
 
+[View Demo](https://shenaldev.com/projects/js/password-verify/index.html)
+
 I made a javascript library to verify user input passwords. It Verify Followings
 
 - Uppercase Letters (Min 1 Uppercase letter)
